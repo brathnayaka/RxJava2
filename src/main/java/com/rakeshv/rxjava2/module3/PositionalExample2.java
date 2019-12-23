@@ -58,6 +58,15 @@ public class PositionalExample2 {
         log.info( "----------------------------------------------------------------------------");
         log.info("");
 
+        log.info("");
+        log.info( "----------------------------------------------------------------------------");
+        log.info("");
+
+        log.info("ElementAt index 11");
+        numberSequence
+                .elementAt(11, 5555L)
+                .subscribe(new SingleDemoSubscriber<>());
+
         System.exit(0);
     }
 }
